@@ -1,4 +1,4 @@
 # **Code Session - Flexbox**
 
 ## You can find the code session on this link :
-> https://codepen.io/lise-nakache/pen/ZEEevjO?editors=1111
+> https://github.com/devtlv/PY1_2019/blob/master/Week1/CodeSessions/codesession_flexbox.html
