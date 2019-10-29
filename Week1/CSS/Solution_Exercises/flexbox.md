@@ -1,4 +1,4 @@
-# **Solution of Flexbox Exercises **
+# **Solution of Flexbox Exercises**
 
 ## Exercise1
 ### What you had to reproduce :
