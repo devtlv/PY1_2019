@@ -19,7 +19,7 @@ Statement 3 : is executed (every time) after the code block has been executed.
 When the condition becomes false, the loop terminates marking the end of its life cycle.
 
 ```javascript
-for (i = 0; i < 5; i++) {
+for (var i = 0; i < 5; i++) {
   text += "The number is " + i + "<br>";
 }
 ```
@@ -110,6 +110,7 @@ while (condition);
 ![Do While Loop](https://media.geeksforgeeks.org/wp-content/uploads/loop3.png)
 
 ```javascript
+var i= 0;
 do {
   text += "The number is " + i;
   i++;
@@ -121,7 +122,7 @@ while (i < 10);
 The `break` statement **breaks the loop** and continues executing the code after the loop
 
 ```javascript
-for (i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
   if (i === 3) { 
       break;
     }
@@ -133,7 +134,7 @@ for (i = 0; i < 10; i++) {
 The` continue` statement **breaks one iteration (in the loop),** and continues with the next iteration in the loop.
 
 ```javascript
-for (i = 0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
   if (i === 3) { continue; }
   text += "The number is " + i + "<br>"; // 0 1 2 4 5 6 7 8 9 
 }
